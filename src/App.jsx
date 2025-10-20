@@ -18,10 +18,10 @@ function App() {
         }}
         shadows={true}
         camera={{
-          fov: 25,
+          fov: 35,
           near: 0.1,
           far: 100,
-          position: [0, 0, 12]
+          position: [4.5, 5, 11]
         }}
       >
         <Experience />
