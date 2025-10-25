@@ -57,3 +57,4 @@ Next steps:
 1. refactor code such that I can reuse the GPGPU on any model import (maybe put gpgpu logic in its own component)
 2. Try different models
 3. Add a cool new effect on top? maybe transition to a different model
+4. cursor contril

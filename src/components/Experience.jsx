@@ -57,9 +57,8 @@ const Experience = () => {
 
     // Callback to receive geometry from Model component
     const handleGeometryLoad = useCallback((geometry) => {
-        // Clone geometry (DON'T remove index - it reorders vertices!)
         const geo = geometry.clone();
-        // geo.setIndex(null); // Removing this causes vertex reordering!
+        geo.setIndex(null); 
         baseGeoRef.current = geo;
         console.log('Base geo attributes:', geo.attributes);
     }, []);
